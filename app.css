@@ -97,7 +97,7 @@ h2 {
     align-self: center;
 }
 
-/* Presentazione e download */
+/* Primo Box */
 
 #intro {
     background-color: darkblue;
@@ -122,3 +122,4 @@ h2 {
 #intro h1, #intro p {
     margin-bottom: 50px;
 }
+
