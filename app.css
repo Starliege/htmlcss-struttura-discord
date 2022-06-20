@@ -108,6 +108,7 @@ h2 {
     color: #FFF;
     padding-top: 40px;
     padding-bottom: 40px;
+    border-bottom: 5px solid lightblue;
 }
 
 #intro .container {
@@ -121,5 +122,97 @@ h2 {
 
 #intro h1, #intro p {
     margin-bottom: 50px;
+}
+
+/* MAIN */
+
+main {
+    margin: auto;
+}
+
+main .container {
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 200px 0;
+    display: flex;
+}
+
+main section:last-child .container {
+    display: block;
+}
+
+main section:nth-child(1), main section:nth-child(3) {
+    background-color: #FFF;
+}
+
+main section:nth-child(2), main section:nth-child(4) {
+    background-color: #F6F6F6;
+}
+
+main section:nth-child(7) {
+    text-align: center;
+}
+
+main h1 {
+    margin-bottom: 25px;
+}
+
+.containerbp, .containerpb {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.containerbp > ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerbp > ul > li:nth-child(1) {
+    background-color: darkcyan;
+    min-width: 900px;
+    min-height: 600px;
+    max-width: 1200px;
+}
+
+.containerbp > ul > li:nth-child(2) {
+    background-color: pink;
+    min-width: 600px;
+    max-width: 1000px;
+}
+
+.containerpb > ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerpb > ul > li:nth-child(1) {
+    background-color: pink;
+    min-width: 600px;
+    max-width: 1000px;
+}
+
+.containerpb > ul > li:nth-child(2) {
+    background-color: darkcyan;
+    min-width: 900px;
+    min-height: 600px;
+    max-width: 1200px;
+}
+
+.bigbox {
+    background-color: darkgreen;
+    min-width: 1200px;
+    min-height: 900px;
+    max-width: 1600px;
+    margin: auto;
+    width: 50%;
+}
+
+main section:nth-child(4) {
+    padding: 40px;
 }
 
