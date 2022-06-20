@@ -1,0 +1,12 @@
+/* Impostazioni Default */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.debug *{
+    border: 1px solid red;
+    padding: 5px;
+}
