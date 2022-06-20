@@ -122,12 +122,3 @@ h2 {
 #intro h1, #intro p {
     margin-bottom: 50px;
 }
-
-#intro .discord-download, #intro .discord-browser {
-    display: inline-block;
-    padding: 15px 35px;
-    border-radius: 50px;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: 0.3s;
-}
