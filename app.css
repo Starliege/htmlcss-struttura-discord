@@ -44,8 +44,8 @@ h2 {
 
 #top > .container {
     width: 80%;
-    min-width: 1000px;
-    max-width: 1300px;
+    min-width: 1600px;
+    max-width: 1600px;
     padding: 5px;
     margin: auto;
     display: flex;
@@ -73,6 +73,7 @@ h2 {
 
 #top nav > ul > li {
     display: inline-block;
+    padding: 10px;
 }
 
 #top nav > ul > li > a {
@@ -101,7 +102,6 @@ h2 {
 
 #intro {
     background-color: darkblue;
-    background-image: url(../images/jumbo.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -205,9 +205,9 @@ main h1 {
 
 .bigbox {
     background-color: darkgreen;
-    min-width: 1200px;
-    min-height: 900px;
-    max-width: 1600px;
+    min-width: 1500px;
+    min-height: 800px;
+    max-width: 1500px;
     margin: auto;
     width: 50%;
 }
@@ -215,4 +215,66 @@ main h1 {
 main section:nth-child(4) {
     padding: 40px;
 }
+
+/* pre-footer */
+
+.prefooter {
+    background-color: #23272A !important;
+    color: #FFF;
+    font-size: 0.8em;
+    border-bottom: 4px solid gray;
+}
+
+.prefooter > .container {
+    width: 80%;
+    min-width: 1500px;
+    max-width: 1500px;
+    padding-top: 20px;
+    display: flex;
+    margin-bottom: -150px;
+}
+
+.prefooter div {
+    margin: auto;
+}
+
+.prefooter > div > div {
+    height: 700px;
+}
+
+/* Colonne */
+
+.prefooter > .container > div:nth-child(1){
+    background-color: lightcoral;
+    min-width: 480px;
+}
+
+.prefooter > .container > div:nth-child(2), div:nth-child(3), div:nth-child(4), div:nth-child(5){
+    background-color: aqua;
+    min-width: 230px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #23272A;
+}
+
+#bottom {
+display: flex;
+padding-top: 30px;
+justify-content: center;
+}
+
+#bottom .container {
+    min-width: 1500px;
+    max-width: 1500px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
 
